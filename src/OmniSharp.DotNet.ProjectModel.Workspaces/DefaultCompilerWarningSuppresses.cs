@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-namespace Microsoft.DotNet.Cli.Compiler.Common
+namespace Microsoft.DotNet.ProjectModel.Workspaces
 {
     public class DefaultCompilerWarningSuppresses
     {

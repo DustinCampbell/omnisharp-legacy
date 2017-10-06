@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OmniSharp.DotNet.Compiler.Common\OmniSharp.DotNet.Compiler.Common.csproj" />
     <ProjectReference Include="..\OmniSharp.DotNet.ProjectModel\OmniSharp.DotNet.ProjectModel.csproj" />
   </ItemGroup>
 

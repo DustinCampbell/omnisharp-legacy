@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniSharp.DotNet.Cli.Utils", "src\OmniSharp.DotNet.Cli.Utils\OmniSharp.DotNet.Cli.Utils.csproj", "{76B0C91B-4451-4C70-8CAB-D0DE415A4399}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniSharp.DotNet.Compiler.Common", "src\OmniSharp.DotNet.Compiler.Common\OmniSharp.DotNet.Compiler.Common.csproj", "{43E48224-42A7-4174-9266-26160F95F6C6}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniSharp.DotNet.Files", "src\OmniSharp.DotNet.Files\OmniSharp.DotNet.Files.csproj", "{3DFFB199-4F46-421B-9C68-167348CB69DE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniSharp.DotNet.ProjectModel", "src\OmniSharp.DotNet.ProjectModel\OmniSharp.DotNet.ProjectModel.csproj", "{462F6D39-5A60-4F3A-8786-A2BE0A378229}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniSharp.DotNet.ProjectModel.Workspaces", "src\OmniSharp.DotNet.ProjectModel.Workspaces\OmniSharp.DotNet.ProjectModel.Workspaces.csproj", "{43EC8A3F-E091-444C-BD62-0C8FF9DE3435}"
@@ -21,18 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76B0C91B-4451-4C70-8CAB-D0DE415A4399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76B0C91B-4451-4C70-8CAB-D0DE415A4399}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76B0C91B-4451-4C70-8CAB-D0DE415A4399}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76B0C91B-4451-4C70-8CAB-D0DE415A4399}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43E48224-42A7-4174-9266-26160F95F6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43E48224-42A7-4174-9266-26160F95F6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43E48224-42A7-4174-9266-26160F95F6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43E48224-42A7-4174-9266-26160F95F6C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DFFB199-4F46-421B-9C68-167348CB69DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DFFB199-4F46-421B-9C68-167348CB69DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DFFB199-4F46-421B-9C68-167348CB69DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DFFB199-4F46-421B-9C68-167348CB69DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{462F6D39-5A60-4F3A-8786-A2BE0A378229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{462F6D39-5A60-4F3A-8786-A2BE0A378229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462F6D39-5A60-4F3A-8786-A2BE0A378229}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,9 +28,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{76B0C91B-4451-4C70-8CAB-D0DE415A4399} = {23817824-47B6-4DDE-9373-4E95E7F4F366}
-		{43E48224-42A7-4174-9266-26160F95F6C6} = {23817824-47B6-4DDE-9373-4E95E7F4F366}
-		{3DFFB199-4F46-421B-9C68-167348CB69DE} = {23817824-47B6-4DDE-9373-4E95E7F4F366}
 		{462F6D39-5A60-4F3A-8786-A2BE0A378229} = {23817824-47B6-4DDE-9373-4E95E7F4F366}
 		{43EC8A3F-E091-444C-BD62-0C8FF9DE3435} = {23817824-47B6-4DDE-9373-4E95E7F4F366}
 	EndGlobalSection

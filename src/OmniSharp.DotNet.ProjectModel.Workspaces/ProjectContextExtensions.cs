@@ -6,10 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Microsoft.DotNet.ProjectModel;
 using NuGet.Frameworks;
 
-namespace Microsoft.DotNet.Cli.Compiler.Common
+namespace Microsoft.DotNet.ProjectModel.Workspaces
 {
     public static class ProjectContextExtensions
     {
